@@ -49,7 +49,7 @@ The default config uses:
 You can also point to a different config file with:
 
 ```sh
-RASPBERRYPI_HID_CONFIG=/path/to/config.ini sudo python3 ff9_hippaul_retroarch.py
+RASPBERRYPI_HID_CONFIG=/path/to/config.ini sudo python3 ff9_hippaul_square_circle.py
 ```
 
 ## Running Scripts
@@ -59,7 +59,7 @@ Most systems require root privileges to write to `/dev/hidg0`. If you run a scri
 Run a script with `sudo`:
 
 ```sh
-sudo python3 ff9_hippaul_retroarch.py
+sudo python3 ff9_hippaul_square_circle.py
 ```
 
 Or switch to a root shell first:
@@ -67,7 +67,7 @@ Or switch to a root shell first:
 ```sh
 sudo su -
 cd /home/pi/raspberrypi-hid
-python3 ff9_hippaul_retroarch.py
+python3 ff9_hippaul_square_circle.py
 ```
 
 Press `Ctrl-C` to stop a running script. The shared keyboard helper tries to release all keys before exiting.
@@ -103,7 +103,7 @@ Use `--use-existing-gil` if you already have enough Gil and want to skip the mon
 - `ff8_esthar_stat_up_farm.py`: farms FF8 stat-up items through Esthar shop/refine loops.
 - `ff8_retroarch_f4_triangle_triangle_f2_x.py`: repeats an FF8 Card command retry cycle.
 - `ff9_fossilroo_justpressquare.py`: repeatedly presses Square for the FF9 Fossil Roo mining minigame.
-- `ff9_hippaul_retroarch.py`: alternates Square and Circle for the FF9 Hippaul racing minigame.
+- `ff9_hippaul_square_circle.py`: alternates Square and Circle for the FF9 Hippaul racing minigame.
 - `ff9_levelup_marcus_justpressX.py`: repeatedly presses Cross for FF9 Marcus/Eiko leveling.
 
 ## Emulator Mappings
