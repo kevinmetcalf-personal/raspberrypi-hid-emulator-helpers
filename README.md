@@ -77,6 +77,7 @@ Some repeated-button scripts accept `--hours`:
 ```sh
 sudo python3 ff9_levelup_marcus_justpressX.py --hours=1/60
 sudo python3 ff9_fossilroo_justpressquare.py --hours=none
+sudo python3 ffx_fighting_guado_justpressX.py --hours=0.5
 ```
 
 Use a number of hours, a fraction such as `1/60`, or `none` to run until `Ctrl-C`.
@@ -105,6 +106,7 @@ Use `--use-existing-gil` if you already have enough Gil and want to skip the mon
 - `ff9_fossilroo_justpressquare.py`: repeatedly presses Square for the FF9 Fossil Roo mining minigame.
 - `ff9_hippaul_square_circle.py`: alternates Square and Circle for the FF9 Hippaul racing minigame.
 - `ff9_levelup_marcus_justpressX.py`: repeatedly presses Cross for FF9 Marcus/Eiko leveling.
+- `ffx_fighting_guado_justpressX.py`: repeatedly presses Cross for the unlimited Guado battles after the Lake Macalania Cloister of Trials in FFX. Useful with emulator speed-up for building sphere inventories and sphere levels.
 
 ## Emulator Mappings
 
